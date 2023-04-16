@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node src/Bot.ts"
+    "start": "nodemon src/Bot.ts"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/madeinchema/squad-training-roles-bot#readme",
   "dependencies": {
-    "discord.js": "^14.9.0"
+    "discord.js": "^14.9.0",
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.22"
   },
   "devDependencies": {
     "@types/node": "^18.15.11",
