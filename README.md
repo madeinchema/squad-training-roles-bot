@@ -1,0 +1,1 @@
+# squad-training-roles-bot
